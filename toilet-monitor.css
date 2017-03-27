@@ -1,0 +1,23 @@
+#status-box {
+  text-align: center;
+}
+
+#status-box h1 {
+  color: red;
+}
+
+span {
+  display: inline-block;
+  width: 49%;
+}
+
+.english-message {
+  background: #a0a3f3;
+  border: 1px solid black;
+}
+
+.spanish-message {
+  background: #c7da28;
+  border: 1px dashed black;
+  float: right;
+}

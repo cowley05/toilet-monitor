@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>
+      Toilet monitor
+    </title>
+    <link rel="stylesheet" type="text/css" href="./toilet-monitor.css">
+  </head>
+  <body>
+    <span class="english-message">Here is an example span where some text can go...</span><span class="spanish-message">Aquí hay más texto...</span>
+    <div id="status-box">
+      <h1 class="status-text">
+        Esta ocupado
+      </h1>
+      <img id="occupied" src="./occupied.jpg" />
+      <img id="vacant" src="http://images.indianexpress.com/2015/04/success-meme-759.jpg" />
+    </div>
+  </body>
+  <script src="./monitor.js">
+  </script>
+  <script type="text/javascript">
+    (function() {
+     getStatus(); 
+    })();
+  </script>
+</html>
+
