@@ -3,21 +3,13 @@
 }
 
 #status-box h1 {
-  color: red;
+  color: black;
+font-size: 100px;
+font-family:"open sans";
 }
 
-span {
-  display: inline-block;
-  width: 49%;
-}
-
-.english-message {
-  background: #a0a3f3;
-  border: 1px solid black;
-}
-
-.spanish-message {
-  background: #c7da28;
-  border: 1px dashed black;
-  float: right;
+.random-message {
+	color: black;
+	font-size: 40px;
+  font-family:"open sans";
 }
